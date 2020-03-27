@@ -13,7 +13,15 @@ function main(sources) {
 
   const name$ = input$.map(ev => ev.target.value).startWith("");
 
-  const vdom$ = name$.map(name => <p>hello {name}</p>);
+  const vdom$ = name$.map(name => (
+    <form className="form">
+      <label>Name:</label>
+      <input className="field" type="text" />
+      <button className="button" type="submit">
+        Submit!
+      </button>
+    </form>
+  ));
 
   return { DOM: vdom$ };
 }
