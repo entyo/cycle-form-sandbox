@@ -10,7 +10,9 @@
     "@cycle/dom": "22.4.0",
     "@cycle/isolate": "4.2.0",
     "@cycle/run": "5.2.0",
+    "@cycle/state": "1.4.0",
     "cyclic-form": "0.11.1",
+    "jazz-func": "^0.7.0",
     "snabbdom": "0.7.1",
     "snabbdom-pragma": "2.7.0",
     "snabbdom-selector": "4.2.0",
@@ -18,6 +20,6 @@
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "typescript": "^3.8.3"
+    "typescript": "3.7.5"
   }
 }

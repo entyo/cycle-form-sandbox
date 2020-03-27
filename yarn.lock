@@ -843,7 +843,7 @@
     quicktask "1.1.0"
     xstream "10.x || 11.x"
 
-"@cycle/state@^1.1.0":
+"@cycle/state@1.4.0", "@cycle/state@^1.1.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@cycle/state/-/state-1.4.0.tgz#7180d436fddbbda512b7be81aa54c2558ccdb0f3"
   integrity sha512-qFishH6mj+dHq4p7ZIP8ZeNoZIICTHQSp2LTsl/kXKlf+6Z2djOB5PK6pgHt3fVg8v46BTs2rFWmTwMbE/QtXQ==
@@ -1836,7 +1836,7 @@ cssstyle@^1.1.1:
   dependencies:
     cssom "0.3.x"
 
-cyclic-form@0.11.1:
+cyclic-form@0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/cyclic-form/-/cyclic-form-0.11.1.tgz#b037cc2300d25c7e929664667908cad02e370b6c"
   integrity sha512-kec5C/b2QHJ0h4Oo1UsiZc2g6Be5v1b8igfMYCC+dNtQ68GKrGglY1nkQsPjKlGRmRQRBLEKzUtPtEeu1SzA/g==
@@ -2938,6 +2938,11 @@ jazz-func@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/jazz-func/-/jazz-func-0.6.0.tgz#4c152a19935815a0ec6d7612aae2e95e482e2511"
   integrity sha512-UZ9pM6M7O+nz5agsjowrRpGH6Vk4ESWcgitVJ8ttwM+TIwqJhoM2ryAEgnzb5cero1ExDAmDSFx17LsLP8OWEQ==
+
+jazz-func@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/jazz-func/-/jazz-func-0.7.0.tgz#c54705fec7fe4b09a0bac051f125eb45eed6df62"
+  integrity sha512-9c4aUo77M9wnuCitO6uLdsR5H6b2QwTOdCEYV4eZ+H+SoH5A2mbKxlnbRPxc0r1jXtAJpgjvB7m4qv0gq1VVQQ==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -4559,10 +4564,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-snabbdom-pragma@2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/snabbdom-pragma/-/snabbdom-pragma-2.7.0.tgz#e245014c40e123d1a13a40a6b4a1a8914626b65b"
-  integrity sha1-4kUBTEDhI9GhOkCmtKGokUYmtls=
+snabbdom-pragma@2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/snabbdom-pragma/-/snabbdom-pragma-2.8.0.tgz#7928fa90070a16f732077f93d15f6d18e27e0a08"
+  integrity sha512-ReCc8AiMksj8vWRfPQjvyji4DY6qUu3FiMfI0/mBJeRAfgOR/d5ijY+rpuMl4kee4w5fjj4pEasl2umaxOawpA==
   dependencies:
     extend "^3.0.0"
 
@@ -4573,12 +4578,7 @@ snabbdom-selector@4.2.0, snabbdom-selector@^4.2.0:
   dependencies:
     tree-selector "^2.1.0"
 
-snabbdom@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/snabbdom/-/snabbdom-0.7.1.tgz#c1e9eddfad2c02ebc2cf66aaefb040419d059597"
-  integrity sha512-uIOCq6rfkBZg2VdSopy9jL0cIOdrkHCcwOjDsLnjef6Z5oPoD8V7nKI8de4gP5GfvyqLY0RBDJP8LVU19Nsw5Q==
-
-snabbdom@^0.7.2, snabbdom@^0.7.4:
+snabbdom@0.7.4, snabbdom@^0.7.2, snabbdom@^0.7.4:
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/snabbdom/-/snabbdom-0.7.4.tgz#817f07e8d3fb870960c3763b8da56f1ba982d31a"
   integrity sha512-nnN+7uZ2NTIiu7EPMNwSDhmrYXqwlfCP/j72RdzvDPujXyvQxOW7Jl9yuLayzxMHDNWQR7FM6Pcn4wnDpKRe6Q==
@@ -5004,10 +5004,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.8.3:
-  version "3.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.3.tgz#409eb8544ea0335711205869ec458ab109ee1061"
-  integrity sha512-MYlEfn5VrLNsgudQTVJeNaQFUAI7DkhnOjdpAp4T+ku1TfQClewlbSuTVHiA+8skNBgaf02TL/kLOvig4y3G8w==
+typescript@3.7.5:
+  version "3.7.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
+  integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
 
 uncss@^0.17.2:
   version "0.17.3"
